@@ -36,7 +36,7 @@ duration_min = None
 nf_calories = None
 
 headers = {
-    "Authorization": "Basic d29ya291dDpqdXN0c21pbGUxMjM="
+    "Authorization": "Basic tyt#####"
 }
 
 for number in range(0, len(data['exercises'])):
