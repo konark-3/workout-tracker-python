@@ -35,5 +35,21 @@ This Python script allows you to **log your daily exercises** and automatically 
 
 Install dependencies using pip:
 
-```bash
-pip install requests
+`pip install requests`
+
+## Setup
+
+Configure environment variables:
+
+### Run:
+
+`python main.py`
+
+## Outcome
+-------
+
+-   Fetches exercise data via Nutritionix API
+
+-   Logs date, time, duration, and calories to Google Sheet via Sheety API
+
+-   Uses environment variables for secure authentication
